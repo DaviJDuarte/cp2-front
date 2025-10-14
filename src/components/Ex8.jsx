@@ -14,9 +14,9 @@ export default function Ex8() {
     <>
     <h1 className="text-2xl font-bold mb-4">Ex8 - Card de Produto</h1>
     <section className="flex justify-center items-center mb-12">
-      <div className="bg-white p-6 rounded-lg shadow-md w-64 text-center">
+      <div className="bg-white p-6 rounded-lg shadow-md w-64 text-center transition hover:translate-y-[-8px] hover:shadow-xl shadow-gray-600">
         <div className="text-4xl text-blue-600 mb-4 flex justify-center">
-          <FaShoppingCart />
+          <FaShoppingCart className="animate-(--animate-bounce)"/>
         </div>
         <h3 className="text-lg font-semibold mb-2">Produto em Promoção</h3>
         <p className="text-gray-600 mb-4">Aproveite 20% de desconto!</p>
